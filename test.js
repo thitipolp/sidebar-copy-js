@@ -9,7 +9,7 @@ myarray.push([cleantext,cleanlink]);
 function make_table() {
     var table = '<ul>';
    for (var i=0; i<myarray.length; i++) {
-            table += '<li><a href="'+myarray.cleantext+'">' + myarray[i][0] +'</li>';
+            table += '<li><a href="'+myarray[i][1]+'">' + myarray[i][0] +'</li>';
     };
  
     var w = window.open("");
